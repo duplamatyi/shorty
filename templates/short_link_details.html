@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block title %}Details about /{{ short_id }}{% endblock %}
+{% block body %}
+  <h2><a href="/{{ short_id }}">/{{ short_id }}</a></h2>
+  <dl>
+    <dt>Full link</dt>
+    <dd class=link><a href="{{ link_target }}">{{ link_target }}</a></h2></dd>
+    <dt>Click count:</dt>
+    <dd>{{ click_count }}</dd>
+  </dl>
+{% endblock %}

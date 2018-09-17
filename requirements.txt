@@ -1,0 +1,6 @@
+Jinja2
+redis
+Werkzeug
+urllib3
+mock
+mockredispy

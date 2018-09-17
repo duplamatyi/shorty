@@ -1,0 +1,8 @@
+<!doctype html>
+<title>{% block title %}{% endblock %} | shortly</title>
+<link rel=stylesheet href=/static/style.css type=text/css>
+<div class=box>
+  <h1><a href=/>shortly</a></h1>
+  <p class=tagline>CRC16 URL shortener using Werkzeug and Redis</p>
+  {% block body %}{% endblock %}
+</div>
